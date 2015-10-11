@@ -1,0 +1,141 @@
+body{
+	background-color: #FCFCFC;
+}
+
+#top-bar{
+	background: url('./images/bananas.jpg') 50% 50% no-repeat;
+	height: 250px;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+#top-bar h1{
+	color: #FCFCFC;
+	font-size: 12em;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.current{
+	margin: 0 auto;
+	font-size: 1.35em;
+	text-align: center;
+	width: 75%;
+}
+
+#nav{
+	background-color: #0066FF;
+	width: 100%;
+	border-bottom: 3px solid black;
+}
+
+#tabs{
+	height: 55px;
+}
+
+#nav ul {
+	width: 100%;
+	text-align: center;
+}
+
+#nav li{
+	display: inline-block;
+	margin-top: 5px;
+	margin-right: 150px;
+	border: 1px solid black;
+}
+
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  color: #1c49ff;
+  font-size: 25px;
+  background: #e6e600;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  float: left;
+}
+
+.btn:hover {
+  background: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-animation:rainbow 1s infinite;
+  -ms-animation:rainbow 1s infinite;
+  -o-animation:rainbow 1s infinite;
+  animation:rainbow 1s infinite;
+}
+
+.btn:active {
+  background: black;
+  text-decoration: none;
+
+  -webkit-animation:rainbow 1s infinite;
+  -ms-animation:rainbow 1s infinite;
+  -o-animation:rainbow 1s infinite;
+  animation:rainbow 1s infinite;
+}
+
+
+	/*This is coded CSS rainbow from http://codepen.io/beben-koben/pen/gfuvc*/
+
+.rainbow:hover {
+-webkit-animation:rainbow 1s infinite;
+-ms-animation:rainbow 1s infinite;
+-o-animation:rainbow 1s infinite;
+animation:rainbow 1s infinite;
+}
+@-webkit-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-ms-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@-o-keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
+@keyframes rainbow {
+0% {color: #ff0000;}
+10% {color: #ff8000;}
+20% {color: #ffff00;}
+30% {color: #80ff00;}
+40% {color: #00ff00;}
+50% {color: #00ff80;}
+60% {color: #00ffff;}
+70% {color: #0080ff;}
+80% {color: #0000ff;}
+90% {color: #8000ff;}
+100% {color: #ff0080;}
+}
